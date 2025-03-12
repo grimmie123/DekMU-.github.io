@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#DekMU</title>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Prompt', sans-serif;
+        }
+
+        body {
+            background-color: #f5f9ff;
+            color: #333;
+            line-height: 1.8;
+            text-align: center;
+        }
+
+        header {
+            background: #1f42e2;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 2.5em;
+            font-weight: bold;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #e3f2fd;
+            padding: 10px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            color: #1f42e2;
+            padding: 12px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+            border-radius: 8px;
+        }
+
+        nav a:hover {
+            color: white;
+            background: #1f42e2;
+        }
+
+        .content {
+            max-width: 1100px;
+            margin: 30px auto;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .faculty-info {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            flex-direction: column;
+        }
+
+        .faculty-info:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+        }
+
+        .faculty-info img {
+            width: 100px;
+            height: 100px;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+
+        .faculty-buttons {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .faculty-buttons button {
+            padding: 12px 20px;
+            border: none;
+            background: linear-gradient(45deg, #1f42e2, #5a73e8);
+            color: white;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .faculty-buttons button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            background: linear-gradient(45deg, #0f2abf, #4054d2);
+        }
+    </style>
+</head>
+<body>
+    <header>#DekMU</header>
+
+    <nav>
+        <a href="https://34rftn.csb.app/">หน้าแรก</a>
+        <a href="#admission">ข้อมูลการรับสมัคร</a>
+        <a href="#faculties">คำแนะนำจากรุ่นพี่</a>
+        <a href="#about">about us</a>
+    </nav>
+
+    <div class="content">
+        <section id="admission">
+            <h2>ข้อมูลการรับสมัคร</h2>
+            <p>รวมแหล่งการรับสมัครTCASของแต่ละรอบของแต่ละคณะ</p>
+        </section>
+
+        <section id="faculties">
+            <h2>รายละเอียดการรับสมัครของคณะต่างๆ</h2>
+            <div class="faculty-info">
+                <img src="c:\Users\user\Downloads\E92CDEAD-BEDE-4098-BEE6-EF1C4F1960AB.png" alt="วิศวกรรมศาสตร์">
+                <h2>คณะวิศวกรรมศาสตร์</h2>
+                <div class="faculty-buttons">
+                    <button onclick="window.location.href='https://tcas.mahidol.ac.th/qualified/1206eg_1.html'">รอบ 1</button>
+                    <button onclick="window.location.href='https://tcas.mahidol.ac.th/qualified/1206eg_1.html#r2'">รอบ 2</button>
+                    <button onclick="window.location.href='https://tcas.mahidol.ac.th/qualified/1206eg_1.html#r3-1'">รอบ 3</button>
+                </div>
+            </div>
+            <div class="faculty-info">
+                <img src="https://via.placeholder.com/100" alt="วิทยาศาสตร์">
+                <h2>คณะวิทยาศาสตร์</h2>
+                <div class="faculty-buttons">
+                    <button onclick="window.location.href='https://tcas.mahidol.ac.th/qualified/0507sc.html#r1-1'">รอบ 1</button>
+                    <button onclick="window.location.href='https://tcas.mahidol.ac.th/qualified/0507sc.html#r2'">รอบ 2</button>
+                    <button onclick="window.location.href='https://tcas.mahidol.ac.th/qualified/0507sc.html#r3-1'">รอบ 3</button>
+                </div>
+            </div>
+            <div class="faculty-info">
+                <img src="https://via.placeholder.com/100" alt="คณะแพทยศาสตร์โรงพยาบาลรามาธิบดี">
+                <h2>คณะแพทยศาสตร์โรงพยาบาลรามาธิบดี</h2>
+                <div class="faculty-buttons">
+                    <button onclick="window.location.href='https://www.rama.mahidol.ac.th/meded/sites/default/files/public/admission/yr2568/TCAS%201_2568_update.jpg'">รอบ 1</button>
+                    <button onclick="window.location.href='https://tcaster.net/tcas-news/tcas67openquotamu/'">รอบ 2 (RAK)</button>
+                    <button onclick="window.location.href='https://admission.eng.example.com/round3'">รอบ 3</button>
+                </div>
+            </div>
+            <div class="faculty-info">
+                <img src="https://via.placeholder.com/100" alt="วิศวกรรมศาสตร์">
+                <h2>คณะแพทยศาสตร์โรงพยาบาลศิริราช</h2>
+                <div class="faculty-buttons">
+                    <button onclick="window.location.href='https://admission.eng.example.com/round1'">รอบ 1</button>
+                    <button onclick="window.location.href='https://admission.eng.example.com/round2'">รอบ 2</button>
+                    <button onclick="window.location.href='https://admission.eng.example.com/round3'">รอบ 3</button>
+                </div>
+            </div>
+            <div class="faculty-info">
+                <img src="https://via.placeholder.com/100" alt="วิศวกรรมศาสตร์">
+                <h2>คณะทันตแพทยศาสตร์</h2>
+                <div class="faculty-buttons">
+                    <button onclick="window.location.href='https://admission.eng.example.com/round1'">รอบ 1</button>
+                    <button onclick="window.location.href='https://admission.eng.example.com/round2'">รอบ 2</button>
+                    <button onclick="window.location.href='https://admission.eng.example.com/round3'">รอบ 3</button>
+                </div>
+            </div>
+            <div class="faculty-info">
+                <img src="https://via.placeholder.com/100" alt="วิศวกรรมศาสตร์">
+                <h2>คณะสัตวแพทยศาสตร์</h2>
+                <div class="faculty-buttons">
+                    <button onclick="window.location.href='https://admission.eng.example.com/round1'">รอบ 1</button>
+                    <button onclick="window.location.href='https://admission.eng.example.com/round2'">รอบ 2</button>
+                    <button onclick="window.location.href='https://admission.eng.example.com/round3'">รอบ 3</button>
+                </div>
+            </div>
+            <div class="faculty-info">
+                <img src="https://via.placeholder.com/100" alt="วิศวกรรมศาสตร์">
+                <h2>คณะสังคมศาสตร์และมนุษย์ศาสตร์</h2>
+                <div class="faculty-buttons">
+                    <button onclick="window.location.href='https://admission.eng.example.com/round1'">รอบ 1</button>
+                    <button onclick="window.location.href='https://admission.eng.example.com/round2'">รอบ 2</button>
+                    <button onclick="window.location.href='https://admission.eng.example.com/round3'">รอบ 3</button>
+                </div>
+            </div>
+            <div class="faculty-info">
+                <img src="https://via.placeholder.com/100" alt="วิศวกรรมศาสตร์">
+                <h2>คณะสิ่งแวดล้อมและทรัพยากรศาสตร์</h2>
+                <div class="faculty-buttons">
+                    <button onclick="window.location.href='https://admission.eng.example.com/round1'">รอบ 1</button>
+                    <button onclick="window.location.href='https://admission.eng.example.com/round2'">รอบ 2</button>
+                    <button onclick="window.location.href='https://admission.eng.example.com/round3'">รอบ 3</button>
+                </div>
+            </div>
+            <div class="faculty-info">
+                <img src="https://via.placeholder.com/100" alt="วิศวกรรมศาสตร์">
+                <h2>คณะเภสัชศาสตร์</h2>
+                <div class="faculty-buttons">
+                    <button onclick="window.location.href='https://admission.eng.example.com/round1'">รอบ 1</button>
+                    <button onclick="window.location.href='https://admission.eng.example.com/round2'">รอบ 2</button>
+                    <button onclick="window.location.href='https://admission.eng.example.com/round3'">รอบ 3</button>
+                </div>
+            </div>
+            <div class="faculty-info">
+                <img src="https://via.placeholder.com/100" alt="วิศวกรรมศาสตร์">
+                <h2>คณะวิทยาศาสตร์และการกีฬา</h2>
+                <div class="faculty-buttons">
+                    <button onclick="window.location.href='https://admission.eng.example.com/round1'">รอบ 1</button>
+                    <button onclick="window.location.href='https://admission.eng.example.com/round2'">รอบ 2</button>
+                    <button onclick="window.location.href='https://admission.eng.example.com/round3'">รอบ 3</button>
+                </div>
+            </div>
+            <div class="faculty-info">
+                <img src="https://via.placeholder.com/100" alt="วิศวกรรมศาสตร์">
+                <h2>คณะเทคโนโลยีสารสนเทศและการสื่อสาร</h2>
+                <div class="faculty-buttons">
+                    <button onclick="window.location.href='https://admission.eng.example.com/round1'">รอบ 1</button>
+                    <button onclick="window.location.href='https://admission.eng.example.com/round2'">รอบ 2</button>
+                    <button onclick="window.location.href='https://admission.eng.example.com/round3'">รอบ 3</button>
+                </div>
+            </div>
+            <div class="faculty-info">
+                <img src="https://via.placeholder.com/100" alt="วิศวกรรมศาสตร์">
+                <h2>คณะเทคนิคการแพทย์</h2>
+                <div class="faculty-buttons">
+                    <button onclick="window.location.href='https://admission.eng.example.com/round1'">รอบ 1</button>
+                    <button onclick="window.location.href='https://admission.eng.example.com/round2'">รอบ 2</button>
+                    <button onclick="window.location.href='https://admission.eng.example.com/round3'">รอบ 3</button>
+                </div>
+            </div>
+            <div class="faculty-info">
+                <img src="https://via.placeholder.com/100" alt="วิศวกรรมศาสตร์">
+                <h2>คณะพยาบาลศาสตร์</h2>
+                <div class="faculty-buttons">
+                    <button onclick="window.location.href='https://admission.eng.example.com/round1'">รอบ 1</button>
+                    <button onclick="window.location.href='https://admission.eng.example.com/round2'">รอบ 2</button>
+                    <button onclick="window.location.href='https://admission.eng.example.com/round3'">รอบ 3</button>
+                </div>
+            </div>
+            <div class="faculty-info">
+                <img src="https://via.placeholder.com/100" alt="วิศวกรรมศาสตร์">
+                <h2>คณะกายภาพบำบัด</h2>
+                <div class="faculty-buttons">
+                    <button onclick="window.location.href='https://admission.eng.example.com/round1'">รอบ 1</button>
+                    <button onclick="window.location.href='https://admission.eng.example.com/round2'">รอบ 2</button>
+                    <button onclick="window.location.href='https://admission.eng.example.com/round3'">รอบ 3</button>
+                </div>
+            </div>
+            <div class="faculty-info">
+                <img src="https://via.placeholder.com/100" alt="วิศวกรรมศาสตร์">
+                <h2>คณะสาธารณสุขศาสตร์</h2>
+                <div class="faculty-buttons">
+                    <button onclick="window.location.href='https://admission.eng.example.com/round1'">รอบ 1</button>
+                    <button onclick="window.location.href='https://admission.eng.example.com/round2'">รอบ 2</button>
+                    <button onclick="window.location.href='https://admission.eng.example.com/round3'">รอบ 3</button>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
